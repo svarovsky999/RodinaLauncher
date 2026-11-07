@@ -1,0 +1,108 @@
+```gitignore
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+
+node_modules/
+.pnp/
+.pnp.js
+
+# ==========================================
+# BUILD OUTPUT
+# ==========================================
+
+dist/
+dist-ssr/
+build/
+out/
+
+# Rust / Tauri build artifacts
+src-tauri/target/
+
+# ==========================================
+# LOGS
+# ==========================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# ENVIRONMENT & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.key.pub
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# ==========================================
+# TAURI / SIGNING
+# ==========================================
+
+# Never commit private signing keys or passwords
+*.sig
+*.private
+
+# Local updater signing configuration
+src-tauri/.tauri/
+
+# ==========================================
+# EDITORS
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.cache
+
+# ==========================================
+# TYPESCRIPT / VITE
+# ==========================================
+
+*.tsbuildinfo
+.vite/
+
+# ==========================================
+# RUST
+# ==========================================
+
+**/*.rs.bk
+Cargo.lock.old
