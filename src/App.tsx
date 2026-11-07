@@ -856,6 +856,10 @@ const checkLauncherUpdate = useCallback(async () => {
   }
 }, [updateChecking, updateInstalling]);
 
+useEffect(() => {
+  void checkLauncherUpdate();
+}, [checkLauncherUpdate]);
+
 // Загрузка и установка обновления
 const installLauncherUpdate = useCallback(async () => {
   if (!availableUpdate || updateInstalling) return;

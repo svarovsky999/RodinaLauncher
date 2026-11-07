@@ -1,0 +1,11 @@
+{
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbjFkY1gyY2VMbEk0algvcjc5WnlXbzMxSm12R2RNdnhoKzV1QmtyTmJxMlpqcHhXWUg1b01WRGZWeUE4K1Vqakc3RVh4T0psRDcwRUdiM1A0YVRUT014UDhSNk1zbVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDg5MjA3CWZpbGU6cm9kaW5hLWxhdW5jaGVyXzAuMS4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMQo4V0tQeEJWalRnbWFVUS9PU1htbTVWRlhqdE4rbmNzaE80czM0cjhvd0xUb2J0bXNHSkppMGlqWkRNM3hFck5wdzZqajVMNVR1M2E3Vy8xcExQNmpEUT09Cg==",
+                                             "url":  "https://github.com/svarovsky999/RodinaLauncher/releases/download/v0.1.1/rodina-launcher_0.1.1_x64-setup.exe"
+                                         }
+                  },
+    "pub_date":  "2026-11-07T22:08:15Z",
+    "version":  "0.1.1",
+    "notes":  "Первый релиз RodinaLauncher с поддержкой автоматических обновлений."
+}
